@@ -20,6 +20,12 @@ commands:
     aliases: [sm, mail]
 
 permissions:
+  sweetmail.draft:
+    default: true
+  sweetmail.box:
+    default: true
+  sweetmail.notice:
+    default: true
   sweetmail.icon.default:
     default: true
   sweetmail.price.default:
@@ -27,6 +33,8 @@ permissions:
   sweetmail.outdate.default:
     default: true
   sweetmail.draft.outdate.default:
+    default: true
+  sweetmail.format.color.basic:
     default: true
   sweetmail.attachment.item:
     default: true
